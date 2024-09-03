@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Aventura na cidade</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <p>Você chega a uma cidade antiga e misteriosa, as ruas estreitas e com um ar enigmático. O que você faz?</p>
+            <button class="btn-proximo" data-proximo="1">Ir até o mercado</button>
+            <button class="btn-proximo" data-proximo="2">Ir tomar sorvete</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você encontra um vendedor de antiguidades. O que você faz?</p>
+            <button class="btn-proximo" data-proximo="3">Perguntar sobre a cidade</button>
+            <button class="btn-proximo" data-proximo="4">Comprar um objeto misterioso</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Você chega na sorveteria. O que você vai pedir?</p>
+            <button class="btn-proximo" data-proximo="5">Um milk-shake</button>
+            <button class="btn-proximo" data-proximo="6">Uma casquinha</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>O vendedor te conta uma lenda intrigante</p>
+            <button class="btn-proximo" data-proximo="7">Perguntar sobre a lenda</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <p>o objeto era amaldiçoado e você morreu.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>depois de tomar um misk-shake voc^vai até ondo?</p>
+            <button class="btn-proximo" data-proximo="7">mercado</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Você pede para esperimentar o sabor de?</p>
+            <button class="btn-proximo" data-proximo="8">menta com chocolate</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Após você encontrar um comerciante e ele te intrigar com uma lenda, ele lhe conta sobre ela</p>
+            <button class="btn-proximo" data-proximo="9">receber uma pista importante</button>
+            <button class="btn-proximo" data-proximo="10">seguir em frente para encontrar um mural com inscrições antigas</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>No começo você estranhou um pouco o sabor mas depois acho delicioso, você termina o sorvete e vai para onde?</p>
+            <button class="btn-proximo" data-proximo="7">mercado</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>após seguir a pista, você decide</p>
+            <button class="btn-proximo" data-proximo="11">Investigar sozinha</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>você examina o mural e encontra uma pista, mas ali perto você ve um menino, vocÊ pede ajuda para ele?</p>
+            <button class="btn-proximo" data-proximo="12">não</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <p>Você chega até uma clareira, onde você encontra um poto de ouro gigante que agora é todo seu</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>O que você faz agora?</p>
+            <button class="btn-proximo" data-proximo="11">investigar sozinha</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
